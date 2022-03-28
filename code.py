@@ -193,10 +193,10 @@ def main():
     # print(f'The total number of words in the book from Adam Smith are: {total_words(book_Smith)}')
     # print(f'The total number of words in the book from Alexander Hamilton are: {total_words(book_Hamilton)}')
 
-    print(f'The top 10 words that have the most occurences in the book from Adam Smith are: {top_10_words(book_Smith)}')
-    print(f'The top 10 words that have the most occurences in the book from Alexander Hamilton are: {top_10_words(book_Hamilton)}')
+    # print(f'The top 10 words that have the most occurences in the book from Adam Smith are: {top_10_words(book_Smith)}')
+    # print(f'The top 10 words that have the most occurences in the book from Alexander Hamilton are: {top_10_words(book_Hamilton)}')
 
-    print(f'The difference between Smith\'s book and Hamilton\'s book is: {compare_top_10(book_Smith, book_Hamilton)}')
+    # print(f'The difference between Smith\'s book and Hamilton\'s book is: {compare_top_10(book_Smith, book_Hamilton)}')
 
     # print(f'The Score for sentiment analysis for Smith\'s book is {sentiment_analysis(nltk_Smith)}')
     # print(f'The Score for sentiment analysis for Hamilton\'s book is {sentiment_analysis(nltk_Hamilton)}')
@@ -209,7 +209,7 @@ def main():
     # print(plot(nltk_Hamilton))
     # plt.savefig('Hamilton.png')
 
-    print(f'The Jaccard Similarity Score between the two books is {jaccard_similarity(nltk_Smith, nltk_Hamilton): 0.5f}')
+    # print(f'The Jaccard Similarity Score between the two books is {jaccard_similarity(nltk_Smith, nltk_Hamilton): 0.5f}')
 
 if __name__ == "__main__":
     main()
